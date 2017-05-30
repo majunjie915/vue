@@ -1,7 +1,8 @@
 <template>
   <div class="home">
     <h1>{{ msg }}</h1>
-    <ul>
+    <router-link to="/home_detail">home_detail</router-link>
+    <ul class="footer">
       <li><router-link to="/home" class="home_index">首页</router-link></li>
       <li><router-link to="/list">演出</router-link></li>
       <li><router-link to="/activity">活动</router-link></li>
@@ -34,7 +35,7 @@ ul {
 
 li {
   display: inline-block;
-  margin: 0 10px;
+  margin: 0 8%;
 }
 
 a {
@@ -42,5 +43,15 @@ a {
 }
 .home_index{
 	color: red;
+}
+.footer{
+	background: #ccc;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	position: fixed;
+	bottom: 0;
+	left: 0;
+	margin-bottom: 0;
 }
 </style>
