@@ -1,5 +1,5 @@
 <template>
-	<div>
+	<div class="main">
 		<h1>{{message}}</h1>
 		<ul class="footer">
 			<li>
@@ -30,6 +30,9 @@
 </script>
 
 <style scoped="">
+	.main{
+		font-size: 0.16rem;
+	}
 	h1, h2 {
 		font-weight: normal;
 	}

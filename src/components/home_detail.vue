@@ -16,6 +16,9 @@
 </script>
 
 <style scoped="">
+	.home_detail{
+		font-size: 0.16rem;
+	}
 	h1{
 		font-weight: normal;
 	}

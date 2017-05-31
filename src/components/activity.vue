@@ -30,6 +30,9 @@
 </script>
 
 <style scoped="">
+	.activity{
+		font-size: 0.16rem;
+	}
 	h1, h2 {
 		font-weight: normal;
 	}

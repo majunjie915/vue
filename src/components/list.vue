@@ -39,6 +39,9 @@ export default {
 </script>
 
 <style scoped>
+	.list{
+		font-size: 0.16rem;
+	}
 	h1, h2 {
 		font-weight: normal;
 	}
