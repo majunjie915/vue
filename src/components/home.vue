@@ -7,7 +7,8 @@
       </li>
     </ol>
     <router-link to="/home_detail">home_detail</router-link>
-    <p v-on:click="reverseMessage">{{message}}</p>
+    <p>{{message}}</p>
+    <button v-on:click="reverseMessage">reverse</button>
     <ul class="footer">
       <li><router-link to="/home" class="home_index">首页</router-link></li>
       <li><router-link to="/list">演出</router-link></li>
@@ -18,6 +19,7 @@
 </template>
 
 <script>
+import $ from 'jquery'
 export default {
   name: 'home',
   data () {
@@ -34,6 +36,7 @@ export default {
   methods: {
     reverseMessage: function () {
       this.message = this.message.split('').reverse().join('')
+      console.log($('.home_index').html())
     }
   }
 }

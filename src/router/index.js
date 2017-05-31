@@ -28,6 +28,10 @@ export default new Router({
       component: list,
       children: [
         {
+          path: '',
+          component: listChild1
+        },
+        {
           path: 'list_child1',
           component: listChild1
         },

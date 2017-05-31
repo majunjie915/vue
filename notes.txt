@@ -1,0 +1,36 @@
+
+vue学习笔记
+
+    1.字符串必须用单一号引起来，双引号报错。
+
+    2.不能使用tab键缩进（我一般用tab缩进4个空格），缩进量为两个空格。
+
+    3.组件的最后一行必须enter，保证文件末尾预留一行
+    
+    4.一级路由的path值必须加"/",二级路由的path不能加"/"
+
+    5.不能加";"结束，加上会报错
+
+    6.注意区分组件中的data和构造器中的data格式
+
+    7.{
+	key1: value,           ":"左边不能有空格，右边必须加一个空格，否则报错
+	key2: value            最后一个键值对后面不能加",",会报错
+      }
+
+    8.vue 引用jquery等三方插件：
+
+	(1).在build/webpack.dev.conf.js和build/webpack.prod.conf.js两个文件中加上new webpack.ProvidePlugin()
+		plugins: [
+
+  				// ...
+
+  				new webpack.ProvidePlugin({
+    					$: 'jquery',
+    					jquery: 'jquery',
+    					'window.jQuery': 'jquery',
+    					jQuery: 'jquery'
+ 	 			})
+			]
+
+	(2).在需要引用插件的文件里引入插件，如：import $ from 'jquery'
