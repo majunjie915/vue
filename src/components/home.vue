@@ -7,16 +7,16 @@
     <div class="swiper-container swiper">
       <div class="swiper-wrapper">
         <div class="swiper-slide">
-          <img src="../assets/active_1_b.png">
+          <img src="../assets/images/active_1_b.png">
         </div>
         <div class="swiper-slide">
-          <img src="../assets/active_2_b.png">
+          <img src="../assets/images/active_2_b.png">
         </div>
         <div class="swiper-slide">
-          <img src="../assets/active_3_b.png">
+          <img src="../assets/images/active_3_b.png">
         </div>
         <div class="swiper-slide">
-          <img src="../assets/active_4_b.png">
+          <img src="../assets/images/active_4_b.png">
         </div>
       </div>
       <div class="swiper-pagination"></div>
@@ -44,7 +44,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  @import url("../assets/swiper.min.css");
+  @import url("../assets/css/swiper.min.css");
   .home{
     font-size: 0.16rem;
   }

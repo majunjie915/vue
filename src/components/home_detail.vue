@@ -1,7 +1,7 @@
 <template>
 	<div class="home_detail">
 		<nav>
-	        <a href="javascript:history.back()"><img src="../assets/back2x.png" class="backImg"></a>
+	        <a href="javascript:history.back()"><img src="../assets/images/back2x.png" class="backImg"></a>
 	        节目详情页
 	    </nav>
 		<h1>{{message}}</h1>
