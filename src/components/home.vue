@@ -1,6 +1,8 @@
 <template>
   <div class="home">
-    <nav>{{ msg }}</nav>
+    <nav>
+      {{ msg }}
+    </nav>
     <ol class="home_todo">
       <li v-for="todo in todos">
         {{todo.test}}
