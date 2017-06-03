@@ -29,6 +29,9 @@ module.exports = merge(baseWebpackConfig, {
       'window.jquery': 'jquery',
       'jQuery': 'jquery'      
     }),
+    new webpack.ProvidePlugin({
+      'Swiper': 'swiper'    
+    }),
     new webpack.NoEmitOnErrorsPlugin(),
     // https://github.com/ampedandwired/html-webpack-plugin
     new HtmlWebpackPlugin({

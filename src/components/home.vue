@@ -3,6 +3,28 @@
     <nav>
       {{ msg }}
     </nav>
+
+    <div class="swiper-container swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="../assets/active_1_b.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/active_2_b.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/active_3_b.png">
+        </div>
+        <div class="swiper-slide">
+          <img src="../assets/active_4_b.png">
+        </div>
+      </div>
+      <div class="swiper-pagination"></div>
+      <!-- Add Arrows -->
+      <div class="swiper-button-next"></div>
+      <div class="swiper-button-prev"></div>
+    </div>
+
     <ol class="home_todo">
       <li v-for="todo in todos">
         {{todo.test}}
@@ -20,32 +42,9 @@
   </div>
 </template>
 
-<script>
-import $ from 'jquery'
-export default {
-  name: 'home',
-  data () {
-    return {
-      msg: '项目首页',
-      todos: [
-        {test: '学习javascript'},
-        {test: '学习vue'},
-        {test: '整个牛项目'}
-      ],
-      message: 'Hello vue !'
-    }
-  },
-  methods: {
-    reverseMessage: function () {
-      this.message = this.message.split('').reverse().join('')
-      console.log($('.home_index').html())
-    }
-  }
-}
-</script>
-
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+  @import url("../assets/swiper.min.css");
   .home{
     font-size: 0.16rem;
   }
@@ -90,4 +89,68 @@ export default {
   	left: 0;
   	margin-bottom: 0;
   }
+  .swiper-container {
+      width: 100%;
+      height: 100%;
+      
+  }
+  .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+      
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+  }
 </style>
+
+<script>
+import $ from 'jquery'
+import Swiper from 'Swiper'
+let swiper
+export default {
+  name: 'home',
+  data () {
+    return {
+      msg: '项目首页',
+      todos: [
+        {test: '学习javascript'},
+        {test: '学习vue'},
+        {test: '整个牛项目'}
+      ],
+      message: 'Hello vue !'
+    }
+  },
+  mounted () {
+    swiper = new Swiper('.swiper-container', {
+      pagination: '.swiper-pagination',
+      nextButton: '.swiper-button-next',
+      prevButton: '.swiper-button-prev',
+      paginationClickable: true,
+      spaceBetween: 30,
+      centeredSlides: true,
+      autoplay: 2500,
+      autoplayDisableOnInteraction: false
+    })
+    console.log(swiper)
+  },
+  methods: {
+    reverseMessage: function () {
+      this.message = this.message.split('').reverse().join('')
+      console.log($('.home_index').html())
+    }
+  }
+}
+</script>
+
