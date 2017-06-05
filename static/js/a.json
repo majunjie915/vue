@@ -1,0 +1,706 @@
+{
+    "status_code": 200,
+    "message": "success",
+    "data": {
+        "programs": [
+            {
+                "uuid": "d2233c8c4e4611e69b43000c29225fb1",
+                "title": "刘若英“Renext 我敢”2016世界巡回演唱会",
+                "category_id": "1",
+                "landscape_id": "http://static.vipiao.com/image/program/landscape/20160720025136.jpg",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20160720025136.jpg",
+                "created_at": "2016-07-20 14:51:41",
+                "scene_number": null,
+                "is_recommended": "1",
+                "commentstar": "5",
+                "description": "          奶茶，小世界里最清新的；清新世界里最会唱歌的那一个。刘若英“Renext 我敢”2016世界巡回演唱会刘若英“Renext 我敢”2016世界巡回演唱会刘若英“Renext 我敢”2016世界巡回演唱会刘若英“Renext 我敢”2016世界巡回演唱。\r\n奶茶，小世界里最清新的；清新世界里最会唱歌的那一个。刘若英“Renext 我敢”2016世界巡。。\r\n\r\n啦啦啦啦啦了",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "0",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "0",
+                "expires": "2017-12-23 18:00:09",
+                "comment_num": "1",
+                "scene_city": [
+                    "北京市",
+                    "天津市",
+                    "石家庄市",
+                    "上海市",
+                    "大连市",
+                    "重庆市",
+                    "杭州市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "0c12f13af33011e686a500163e034f8a",
+                        "program_id": "d2233c8c4e4611e69b43000c29225fb1",
+                        "subtitle": "",
+                        "keywords": null,
+                        "start_time": "2017-11-14 15:00:32",
+                        "end_time": null,
+                        "lowest_price": "1.00",
+                        "highest_price": "0",
+                        "ticket_number": "111",
+                        "flash_sale": "0",
+                        "fares": [
+                            "188"
+                        ],
+                        "province_code": "130000",
+                        "city_code": "130100",
+                        "city_name": "石家庄市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "0000-00-00 00:00:00",
+                        "time_remaining": 0,
+                        "ticket_count": 1,
+                        "venue": {
+                            "id": "21",
+                            "name": "河北省体育馆",
+                            "province_code": "130000",
+                            "city_code": "130100",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "116.307535,39.984163"
+                        }
+                    }
+                ]
+            },
+            {
+                "uuid": "5373a0cf271b11e6b693000c29225fb1",
+                "title": "［test］大圣",
+                "category_id": "1",
+                "landscape_id": "http://static.vipiao.com/image/program/landscape/20160531063107.jpg",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20160531063108.jpg",
+                "created_at": "2016-05-31 18:31:08",
+                "scene_number": null,
+                "is_recommended": "0",
+                "commentstar": "5",
+                "description": "<p>这个是你的大圣<img src=\"http://test-ma.vipiao.com/ueditor/php/upload/image/20170516/1494926485543985.jpg\" title=\"1494926485543985.jpg\" alt=\"1493973223498860.jpg\"/></p>",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "0",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "0",
+                "expires": "2018-02-02 18:36:24",
+                "comment_num": "1",
+                "scene_city": [
+                    "北京市",
+                    "天津市",
+                    "上海市",
+                    "广州市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "6e3e9317271b11e6b693000c29225fb1",
+                        "program_id": "5373a0cf271b11e6b693000c29225fb1",
+                        "subtitle": "",
+                        "keywords": null,
+                        "start_time": "2018-02-02 18:36:24",
+                        "end_time": null,
+                        "lowest_price": "0.10",
+                        "highest_price": "0",
+                        "ticket_number": "35343",
+                        "flash_sale": "0",
+                        "fares": [
+                            "123"
+                        ],
+                        "province_code": "110000",
+                        "city_code": "110100",
+                        "city_name": "北京市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "0000-00-00 00:00:00",
+                        "time_remaining": 0,
+                        "ticket_count": 9,
+                        "venue": {
+                            "id": "5",
+                            "name": "首都体育馆",
+                            "province_code": "110000",
+                            "city_code": "110100",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "116.307535,39.984163"
+                        }
+                    }
+                ]
+            },
+            {
+                "uuid": "50290273fa6911e686a500163e034f8a",
+                "title": "a小程序测试吧20170411=2",
+                "category_id": "1",
+                "landscape_id": "",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20170224041450.jpg",
+                "created_at": "2017-02-24 16:14:50",
+                "scene_number": null,
+                "is_recommended": "1",
+                "commentstar": "5",
+                "description": "11111111",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "57230d94951c730150779851",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "0",
+                "expires": "2020-02-26 00:00:00",
+                "comment_num": "0",
+                "scene_city": [
+                    "石家庄市",
+                    "北京市",
+                    "天津市",
+                    "上海市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "6a1334bdfa6911e686a500163e034f8a",
+                        "program_id": "50290273fa6911e686a500163e034f8a",
+                        "subtitle": "",
+                        "keywords": null,
+                        "start_time": "2018-03-30 19:00:22",
+                        "end_time": null,
+                        "lowest_price": "1.00",
+                        "highest_price": "0",
+                        "ticket_number": "1111219",
+                        "flash_sale": "0",
+                        "fares": [
+                            "188",
+                            "288",
+                            "388"
+                        ],
+                        "province_code": "130000",
+                        "city_code": "130100",
+                        "city_name": "石家庄市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "0000-00-00 00:00:00",
+                        "time_remaining": 0,
+                        "ticket_count": 3,
+                        "venue": {
+                            "id": "21",
+                            "name": "河北省体育馆",
+                            "province_code": "130000",
+                            "city_code": "130100",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "116.307535,39.984163"
+                        }
+                    }
+                ]
+            },
+            {
+                "uuid": "22d1a1e12c0911e786a500163e034f8a",
+                "title": "【万有音乐系】汪睿“现在见面吧”2017巡回演唱会",
+                "category_id": "1",
+                "landscape_id": "",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20170428075220.jpg",
+                "created_at": "2017-04-28 19:52:20",
+                "scene_number": null,
+                "is_recommended": "0",
+                "commentstar": "5",
+                "description": "犹豫过的青春\r\n　　缺少一份单纯\r\n　　不要再去压抑\r\n　　也不做作含蓄\r\n　　如果你正好也在想我\r\n　　不如，现在见面吧！\r\n\r\n　　关掉流量\r\n　　放下手机\r\n　　我们，见面吧！\r\n　　管他纽约飞北京有多远\r\n　　管他下雨还是下雪！\r\n　　我不管，我们，现在见面吧！",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "0",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "0",
+                "expires": "2017-06-09 00:00:00",
+                "comment_num": "0",
+                "scene_city": [
+                    "成都市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "353493432c0911e786a500163e034f8a",
+                        "program_id": "22d1a1e12c0911e786a500163e034f8a",
+                        "subtitle": "",
+                        "keywords": null,
+                        "start_time": "2017-06-08 20:00:36",
+                        "end_time": null,
+                        "lowest_price": "0",
+                        "highest_price": "0",
+                        "ticket_number": 0,
+                        "flash_sale": "0",
+                        "fares": [
+                            "vip"
+                        ],
+                        "province_code": "510000",
+                        "city_code": "510100",
+                        "city_name": "成都市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "0000-00-00 00:00:00",
+                        "time_remaining": 0,
+                        "ticket_count": 0,
+                        "venue": {
+                            "id": "130",
+                            "name": "SHE SAYS 西婵国际剧场",
+                            "province_code": "510000",
+                            "city_code": "510100",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "104.096747,30.649194"
+                        }
+                    }
+                ]
+            },
+            {
+                "uuid": "3bd894522bf611e786a500163e034f8a",
+                "title": "2017好妹妹乐队 “自在如风”全国巡回演唱会",
+                "category_id": "1",
+                "landscape_id": "",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20170428053702.jpg",
+                "created_at": "2017-04-28 17:37:02",
+                "scene_number": null,
+                "is_recommended": "0",
+                "commentstar": "5",
+                "description": "　2017年6月10日，和好妹妹乐队一起“自在如风”\r\n　　6月10日 深圳湾体育中心“春茧”体育场\r\n　　唱着清新民谣的好妹妹乐队将唱响深圳\r\n　　去听那些青春年少的故事\r\n　　去听那些文艺又清新的喜乐与哀愁",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "0",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "0",
+                "expires": "2017-06-11 00:00:00",
+                "comment_num": "0",
+                "scene_city": [
+                    "深圳市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "00feb2732bf711e786a500163e034f8a",
+                        "program_id": "3bd894522bf611e786a500163e034f8a",
+                        "subtitle": "",
+                        "keywords": null,
+                        "start_time": "2017-06-10 19:30:16",
+                        "end_time": null,
+                        "lowest_price": "0",
+                        "highest_price": "0",
+                        "ticket_number": 0,
+                        "flash_sale": "0",
+                        "fares": [
+                            "vip"
+                        ],
+                        "province_code": "440000",
+                        "city_code": "440300",
+                        "city_name": "深圳市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "0000-00-00 00:00:00",
+                        "time_remaining": 0,
+                        "ticket_count": 0,
+                        "venue": {
+                            "id": "10",
+                            "name": "华润深圳湾体育中心＂春茧＂体育场",
+                            "province_code": "440000",
+                            "city_code": "440300",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "116.307535,39.984163"
+                        }
+                    }
+                ]
+            },
+            {
+                "uuid": "b3d3eb982bf311e786a500163e034f8a",
+                "title": "韦礼安《放开那女孩》演唱会",
+                "category_id": "1",
+                "landscape_id": "",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20170428051855.jpg",
+                "created_at": "2017-04-28 17:18:55",
+                "scene_number": null,
+                "is_recommended": "0",
+                "commentstar": "5",
+                "description": "　一辈子一定要听过的韦式现场\r\n　　一生中一定要经历的情感震憾\r\n　　拒绝理所当然 男孩放开女孩 音乐就要好玩\r\n　　EDM流行音乐节目〔盖世英雄〕 突破文艺形象 张力演出技惊四座\r\n　　全华人乐迷／乐评／DJ／网民 众所期待华语唱作新天王\r\n",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "0",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "0",
+                "expires": "2017-06-11 00:00:00",
+                "comment_num": "0",
+                "scene_city": [
+                    "成都市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "c07a58e52bf411e786a500163e034f8a",
+                        "program_id": "b3d3eb982bf311e786a500163e034f8a",
+                        "subtitle": "",
+                        "keywords": null,
+                        "start_time": "2017-06-10 19:30:24",
+                        "end_time": null,
+                        "lowest_price": "0",
+                        "highest_price": "0",
+                        "ticket_number": 0,
+                        "flash_sale": "0",
+                        "fares": [
+                            "vip"
+                        ],
+                        "province_code": "510000",
+                        "city_code": "510100",
+                        "city_name": "成都市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "0000-00-00 00:00:00",
+                        "time_remaining": 0,
+                        "ticket_count": 0,
+                        "venue": {
+                            "id": "113",
+                            "name": "锦城艺术宫",
+                            "province_code": "510000",
+                            "city_code": "510100",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "104.067874,30.657595"
+                        }
+                    }
+                ]
+            },
+            {
+                "uuid": "1eaff2782be811e786a500163e034f8a",
+                "title": "朴树“好好地II”2017中国巡回演唱会",
+                "category_id": "1",
+                "landscape_id": "",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20170428035600.jpg",
+                "created_at": "2017-04-28 15:56:00",
+                "scene_number": null,
+                "is_recommended": "0",
+                "commentstar": "5",
+                "description": "　从《我去2000年》到《生如夏花》，沉寂12年后，朴树携《平凡之路》归来，并即将发行新专辑。作为\"唱片时代最具诗人气质的歌手\"，他是70、80、90后的偶像，用歌声唱出了许多人的青春。\r\n\r\n　　从签约\"麦田音乐\"录制单曲《火车开往冬天》到现在，20年的音乐历程，朴树沉寂了十年。两张专辑，27首歌，他的每一首歌都被乐迷奉为经典。你可以在清晨《且听风吟》，也可以在热烈的阳光下吟唱《ColorfulDays》，在远行的路上听一曲《平凡之路》…\r\n\r\n　　…他就像一个你人生旅途上的伙伴，一直从容潇洒。\r\n",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "0",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "0",
+                "expires": "2017-06-18 00:00:00",
+                "comment_num": "0",
+                "scene_city": [
+                    "成都市",
+                    "杭州市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "5b7296de2be811e786a500163e034f8a",
+                        "program_id": "1eaff2782be811e786a500163e034f8a",
+                        "subtitle": "",
+                        "keywords": null,
+                        "start_time": "2017-06-10 20:00:32",
+                        "end_time": null,
+                        "lowest_price": "0",
+                        "highest_price": "0",
+                        "ticket_number": 0,
+                        "flash_sale": "0",
+                        "fares": [
+                            "vip"
+                        ],
+                        "province_code": "510000",
+                        "city_code": "510100",
+                        "city_name": "成都市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "0000-00-00 00:00:00",
+                        "time_remaining": 0,
+                        "ticket_count": 0,
+                        "venue": {
+                            "id": "103",
+                            "name": "四川省体育馆",
+                            "province_code": "510000",
+                            "city_code": "510100",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "104.06527,30.631324"
+                        }
+                    }
+                ]
+            },
+            {
+                "uuid": "5e59a2cc2c8911e786a500163e034f8a",
+                "title": "【A CLASSIC TOUR学友经典】世界巡回演唱会 ",
+                "category_id": "1",
+                "landscape_id": "",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20170429111016.jpg",
+                "created_at": "2017-04-29 11:10:16",
+                "scene_number": null,
+                "is_recommended": "0",
+                "commentstar": "5",
+                "description": "\r\n　　万众瞩目，\"歌神\"张学友的全新\"ACLASSICTOUR学友·经典世界巡回演唱会\"继去年10月21日在北京万事达中心首站盛大起航后，将于今年6月10日来到中山举行中山站的演出。今年3月底起，这次巡回就从室内体育馆搬到户外体育场，演出规模也全面升级，而四面台的每一边都各增加了三面大型LED屏幕，360度无死角的视觉让四面台呈现得更加立体和完整，甚至连内场观众席都是特别定制打造，与户外体育场跟着舞台硬体设备一起巡回。",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "0",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "0",
+                "expires": "2017-06-11 00:00:00",
+                "comment_num": "0",
+                "scene_city": [
+                    "中山市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "a1d2a08e2c8911e786a500163e034f8a",
+                        "program_id": "5e59a2cc2c8911e786a500163e034f8a",
+                        "subtitle": "",
+                        "keywords": null,
+                        "start_time": "2017-06-10 20:00:58",
+                        "end_time": null,
+                        "lowest_price": "0",
+                        "highest_price": "0",
+                        "ticket_number": 0,
+                        "flash_sale": "0",
+                        "fares": [
+                            "vip"
+                        ],
+                        "province_code": "440000",
+                        "city_code": "442000",
+                        "city_name": "中山市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "0000-00-00 00:00:00",
+                        "time_remaining": 0,
+                        "ticket_count": 0,
+                        "venue": {
+                            "id": "141",
+                            "name": "中山市兴中体育场",
+                            "province_code": "440000",
+                            "city_code": "442000",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "113.388898,22.507322"
+                        }
+                    }
+                ]
+            },
+            {
+                "uuid": "66742fc82bea11e786a500163e034f8a",
+                "title": "热斑《无感人》专辑全国巡演",
+                "category_id": "1",
+                "landscape_id": "",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20170428041219.jpg",
+                "created_at": "2017-04-28 16:12:19",
+                "scene_number": null,
+                "is_recommended": "0",
+                "commentstar": "5",
+                "description": "　热斑乐队成立于2013年，这是一支由刘翩翩（主唱&作词）和王志文（吉他&作曲）组建的90后乐队。他们年轻，低调；独立对于他们，既是风格也是态度。吉他手王志文的演奏克制、内敛，又时常爆发灿烂篇章，凸现出对旋律和结构的把控；主唱刘翩翩的歌词在投射出对生活和心绪的洞察描摹的同时，往往含着对冷寂和孤独的凝视，但唱出来的时候却有着触动人心的治愈感。热斑的音乐悦耳、时尚，拒绝模式化。时尚风向标“匡威”、新势力唱将吴莫愁曾向热斑抛出合作的橄榄枝，正是对他们追求自我，不媚流俗个性的认可。\r\n",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "0",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "0",
+                "expires": "2017-06-12 00:00:00",
+                "comment_num": "0",
+                "scene_city": [
+                    "青岛市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "92ab8a2c2bea11e786a500163e034f8a",
+                        "program_id": "66742fc82bea11e786a500163e034f8a",
+                        "subtitle": "",
+                        "keywords": null,
+                        "start_time": "2017-06-11 20:00:30",
+                        "end_time": null,
+                        "lowest_price": "0",
+                        "highest_price": "0",
+                        "ticket_number": 0,
+                        "flash_sale": "0",
+                        "fares": [
+                            "vip"
+                        ],
+                        "province_code": "370000",
+                        "city_code": "370200",
+                        "city_name": "青岛市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "0000-00-00 00:00:00",
+                        "time_remaining": 0,
+                        "ticket_count": 0,
+                        "venue": {
+                            "id": "106",
+                            "name": "赫兹 Livehouse",
+                            "province_code": "370000",
+                            "city_code": "370200",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "116.491527,39.9147"
+                        }
+                    }
+                ]
+            },
+            {
+                "uuid": "2644fb663ac511e786a500163e034f8a",
+                "title": "4.3.1版本测试节目20170517",
+                "category_id": "1",
+                "landscape_id": "",
+                "portrait_id": "http://static.vipiao.com/image/program/portrait/20170517015328.jpg",
+                "created_at": "2017-05-17 13:53:28",
+                "scene_number": null,
+                "is_recommended": "1",
+                "commentstar": "5",
+                "description": "<p>唯票app为粉丝提供明星演出、体育赛事、明星资讯、粉丝应援等一体化服务，满足千万粉丝的娱乐追星体验。既是购票、抢票神器，也是爱豆一手资讯的发源地和死忠铁粉应援的集结地，你想要的，都在这里。唯票app为粉丝提供明星演出、体育赛事、明星资讯、粉丝应援等一体化服务，满足千万粉丝的娱乐追星体验。既是购票、抢票神器，也是爱豆一手资讯的发源地和死忠铁粉应援的集结地，你想要的，都在这里。</p><p><img src=\"http://vip-static.oss-cn-beijing.aliyuncs.com/image/proimg/cfc914915d560449b5ec79a8f4eeb459.jpeg\" title=\"1495000317323665.jpg\" alt=\"8b13632762d0f703c47d6fe201fa513d2797c5c5.jpg\" width=\"316\" height=\"399\"/></p><p>很好，编辑器应该没啥问题</p><p>啦啦啦</p><p>谁说没问题，甭嘚瑟，pia pia pia</p><p><img src=\"http://vip-static.oss-cn-beijing.aliyuncs.com/image/proimg/c4ffb7681d32d0c15fbe1fc7eb8aa78d.jpeg\" title=\"1495006660770548.jpg\" alt=\"微信图片_20170508134012.jpg\"/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p><p><br/></p>",
+                "desc_img": null,
+                "notic": null,
+                "bar_id": "0",
+                "bar_name": null,
+                "rate": "100",
+                "flash_sale": "1",
+                "expires": "2018-02-23 11:33:11",
+                "comment_num": "0",
+                "scene_city": [
+                    "北京市",
+                    "天津市",
+                    "武汉市",
+                    "重庆市",
+                    "无锡市",
+                    "上海市",
+                    "石家庄市"
+                ],
+                "scenes": [
+                    {
+                        "uuid": "9fc39b8045b511e786a500163e034f8a",
+                        "program_id": "2644fb663ac511e786a500163e034f8a",
+                        "subtitle": "副标题",
+                        "keywords": null,
+                        "start_time": "2017-06-15 11:59:21",
+                        "end_time": null,
+                        "lowest_price": "0",
+                        "highest_price": "0",
+                        "ticket_number": 0,
+                        "flash_sale": "1",
+                        "fares": [
+                            "33"
+                        ],
+                        "province_code": "110000",
+                        "city_code": "110100",
+                        "city_name": "北京市",
+                        "content_id": "0",
+                        "comment": "",
+                        "buynote": null,
+                        "seatimg": null,
+                        "supplier": null,
+                        "is_presale": null,
+                        "presale_coupon_codes": [],
+                        "buy_limit": null,
+                        "sell_start_time": "2017-06-07 11:59:25",
+                        "time_remaining": 158188,
+                        "ticket_count": 0,
+                        "venue": {
+                            "id": "1",
+                            "name": "工人体育馆",
+                            "province_code": "110000",
+                            "city_code": "110100",
+                            "landscape": "landscape",
+                            "portrait": null,
+                            "lnglat": "116.307535,39.984163"
+                        }
+                    }
+                ]
+            }
+        ],
+        "pagination": {
+            "total": 20,
+            "page_size": 10,
+            "current_page": 1
+        },
+        "program_category": [
+            {
+                "id": "1",
+                "title": "演唱会",
+                "pic": "http://static.vipiao.com/image/program/ticket/sorts//2017/03/20170324065050.png"
+            },
+            {
+                "id": "2",
+                "title": "体育赛事",
+                "pic": "http://static.vipiao.com/image/program/ticket/sorts//2017/03/20170324065107.png"
+            },
+            {
+                "id": "3",
+                "title": "话剧歌剧",
+                "pic": "http://static.vipiao.com/image/program/ticket/sorts//2017/03/20170324065130.png"
+            },
+            {
+                "id": "4",
+                "title": "音乐会",
+                "pic": "http://static.vipiao.com/image/program/ticket/sorts//2017/03/20170324065148.png"
+            },
+            {
+                "id": "9",
+                "title": "儿童亲子",
+                "pic": "http://static.vipiao.com/image/program/ticket/sorts//2017/03/20170327095646.png"
+            },
+            {
+                "id": "10",
+                "title": "休闲展览",
+                "pic": "http://static.vipiao.com/image/program/ticket/sorts//2017/03/20170327095722.png"
+            },
+            {
+                "id": "5",
+                "title": "舞蹈芭蕾",
+                "pic": "http://static.vipiao.com/image/program/ticket/sorts//2017/03/20170324065207.png"
+            },
+            {
+                "id": "6",
+                "title": "戏曲综艺",
+                "pic": "http://static.vipiao.com/image/program/ticket/sorts//2017/03/20170324065239.png"
+            }
+        ]
+    }
+}
