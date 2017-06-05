@@ -18,17 +18,6 @@
 	</div>
 </template>
 
-<script type="text/javascript">
-	export default {
-	  name: 'activity',
-	  data () {
-	    return {
-	      message: '项目活动'
-	    }
-	  }
-	}
-</script>
-
 <style scoped="">
 	.activity{
 		font-size: 0.16rem;
@@ -61,3 +50,29 @@
 		margin-bottom: 0;
 	}
 </style>
+
+<script type="text/javascript">
+	import $ from 'jquery'
+	export default {
+	  name: 'activity',
+	  data () {
+	    return {
+	      message: '项目活动',
+	      data: ''
+	    }
+	  },
+	  mounted: function () {
+	    var url = '../assets/a.json'
+	    var _self = this
+	    $.ajax({
+	      url: url,
+	      type: 'get',
+	      dataType: 'json',
+	      data: _self.data,
+	      success: function (res) {
+	        console.log(res)
+	      }
+	    })
+	  }
+	}
+</script>
