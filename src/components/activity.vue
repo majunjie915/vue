@@ -139,7 +139,8 @@
 	  data () {
 	    return {
 	      message: '项目活动',
-	      data: ''
+	      data: '',
+	      imgList: ''
 	    }
 	  },
 	  mounted: function () {
@@ -154,15 +155,32 @@
 	        _self.data = {
 	          list: res.data.programs
 	        }
-	        console.log(_self.data)
+	      }
+	    })
+	    _self.$http({
+	      url: url,
+	      method: 'get'}).then(function (response) {
+	        this.imgList = response.data
+	      }, function (error) {
+	      	console.log(error)
 	      }
 	    })
 	  },
-	  activated: function () {
-	    if ($('.price') === '0') {
-	      $('.forth').html('可预约')
+	  created: function () {
+	    this.getData()
+	  },
+	  methods: {
+	    getData: function () {
+	      var that = this
+	      that.$http({
+	        method: 'GET',
+	        url: '../../static/js/a.json'
+	      }).then(function (response) {
+	        this.imgList = response.data
+	      }, function (error) {
+	        console.log(error)
+	      })
 	    }
-	    console.log($('.price'))
 	  }
 	}
 </script>
