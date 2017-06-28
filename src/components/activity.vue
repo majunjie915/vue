@@ -162,9 +162,9 @@
 	      method: 'get'}).then(function (response) {
 	        this.imgList = response.data
 	      }, function (error) {
-	      	console.log(error)
+            console.log(error)
 	      }
-	    })
+	    )
 	  },
 	  created: function () {
 	    this.getData()
