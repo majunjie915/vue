@@ -26,10 +26,14 @@
     </div>
 
     <ol class="home_todo">
-      <li v-for="todo in todos">
-        {{todo.test}}
+      <li v-for="(todo, index) in todos" :id="index">
+        <p v-on:click="showContent($event)">{{todo.test}}</p>
+        <!-- <div>{{todo.content}}</div> -->
       </li>
     </ol>
+    <ul class="home_todo_content">
+      <li v-for="(todo, index) in todos" :id="index">{{todo.content}}</li>
+    </ul>
     <router-link to="/home_detail">home_detail</router-link>
     <p>{{message}}</p>
     <button v-on:click="reverseMessage">reverse</button>
@@ -39,12 +43,29 @@
       <li><router-link to="/activity">活动</router-link></li>
       <li><router-link to="/mine">我的</router-link></li>
     </ul>
+    <div class="blank60"></div>
   </div>
 </template>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
   @import url("../assets/css/swiper.min.css");
+  .home_todo_content{
+    width: 80%;
+    height: 3rem;
+    border: thin inset #eee;
+    margin-left: 10%;
+    text-align: left;
+  }
+  .home_todo_content li{
+    width: 80%;
+    height: 3rem;
+    margin: 3%;
+    display: none;
+  }
+  .checked{
+    border-bottom: solid 2px #ff7946;
+  }
   .home{
     font-size: 0.16rem;
   }
@@ -89,6 +110,9 @@
   	left: 0;
   	margin-bottom: 0;
   }
+  .blank60{
+    height: 0.6rem;
+  }
   .swiper-container {
       width: 100%;
       height: 100%;
@@ -113,6 +137,26 @@
       -webkit-align-items: center;
       align-items: center;
   }
+  .home_todo{
+    /*margin-left: 10%;*/
+    display: flex;
+    justify-content: space-around;
+    padding: 0;
+  }
+  .home_todo li p{
+    cursor: pointer;
+    /*padding-bottom: 0.1rem;*/
+    display: inline-block;
+    margin: 0 0 0.1rem 0;
+  }
+  .home_todo li div{
+    display: none;
+    position: relative;
+    width: 5rem;
+    height: 2rem;
+    border: solid 1px;
+    padding-left: 3%;
+  }
 </style>
 
 <script>
@@ -125,9 +169,9 @@ export default {
     return {
       msg: '项目首页',
       todos: [
-        {test: '学习javascript'},
-        {test: '学习vue'},
-        {test: '整个牛项目'}
+        {test: '学习javascript', content: "学习javascript是学习vue的基础"},
+        {test: '学习vue', content: "框架是个好东西，能为我们前端开发节省很多麻烦事"},
+        {test: '整个牛项目', content: "学习好vue整出一个属于自己的项目"}
       ],
       message: 'Hello vue !'
     }
@@ -143,12 +187,24 @@ export default {
       autoplay: 2500,
       autoplayDisableOnInteraction: false
     })
-    console.log(swiper)
+    $(".home_todo li:first p").addClass("checked");
+    $(".home_todo li:first div").css("display", "block");
+    $(".home_todo_content li:first").show();
   },
   methods: {
     reverseMessage: function () {
       this.message = this.message.split('').reverse().join('')
-      console.log($('.home_index').html())
+    },
+    showContent: function($event){
+      $($event.target).addClass("checked").closest("li").siblings().find("p").removeClass("checked");
+
+      $($event.target).siblings("div").show().closest("li").siblings().find("div").hide();
+
+      $(".home_todo_content li").each(function(){
+        if($(this).prop("id") == $($event.target).closest("li").prop("id")){
+          $(this).show().siblings().hide();
+        }
+      })
     }
   }
 }
