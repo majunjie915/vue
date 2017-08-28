@@ -2,7 +2,7 @@
 	<div class="activity">
 		<nav>{{message}}</nav>
 		<ul class="programList">
-			<li v-for="item in data.list">
+			<li v-for="item in imgList">
 				<div class="left"><img :src="item.portrait_id"></div>
 				<div class="right">
 					<p class="first">{{item.title}}</p>
@@ -136,12 +136,15 @@
 	import $ from 'jquery'
 	export default {
 	  name: 'activity',
-	  data () {
+	  data: function () {
 	    return {
 	      message: '项目活动',
 	      data: '',
 	      imgList: ''
 	    }
+	  },
+	  created: function () {
+	    this.getData()
 	  },
 	  mounted: function () {
 	    var url = '../../static/js/a.json'
@@ -157,17 +160,13 @@
 	        }
 	      }
 	    })
-	    _self.$http({
+	   /* _self.$http({
 	      url: url,
 	      method: 'get'}).then(function (response) {
-	        this.imgList = response.data
+	        _self.imgList = response.data.data.programs
 	      }, function (error) {
             console.log(error)
-	      }
-	    )
-	  },
-	  created: function () {
-	    // this.getData()
+	      })*/
 	  },
 	  methods: {
 	    getData: function () {
@@ -176,7 +175,7 @@
 	        method: 'GET',
 	        url: '../../static/js/a.json'
 	      }).then(function (response) {
-	        this.imgList = response.data
+	        that.imgList = response.data.data.programs
 	      }, function (error) {
 	        console.log(error)
 	      })
