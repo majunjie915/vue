@@ -84,6 +84,7 @@
     methods: {
       reverseMessage: function () {
         this.message = this.message.split('').reverse().join('')
+        layui.layer.msg("hello wold")
       },
       showContent: function($event){
         $($event.target).addClass("checked").closest("li").siblings().find("p").removeClass("checked");
